@@ -34,6 +34,8 @@ If you have some suspicious code that may raise an exception, you can defend you
 You can use a finally: block along with a try: block. The finally block is a place to put any code that must execute, whether the try-block raised an exception or not. (References: https://www.tutorialspoint.com/python/python_exceptions.htm).
 
 Table 1 List of Standard Exceptions
+
+Sr. No.	Exception Name and Description
 1	Exception: Base class for all exceptions
 2	StopIteration: Raised when the next() method of an iterator does not point to any object.
 3	SystemExit: Raised by the sys.exit() function.
