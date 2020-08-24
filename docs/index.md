@@ -14,8 +14,8 @@ Binary files store data in a sequence of bytes grouped into eight bits or someti
 2.1.	Binary Versus Text Files
 Text files are special subset of binary files that are used to store human readable characters as a rich text document or plain text document. Text files also store data in sequential bytes but the bits in text file represents characters. Text files are of two types: plain text files and rich text files. Both text files store end of line and end of file markers. Figure 1 lists the main differences between binary and text files. (Reference https://www.thecrazyprogrammer.com/2018/05/difference-between-text-file-and-binary-file.html).
 
- 
-Figure 1 Differences Between Text and Binary File
+![Figure 1 Differences Between Text and Binary File](Images/PickleMethods.jpg)
+
 
 2.2.	Python Pickle Module
 Python’s pickle module serializes objects into a binary format so they can be saved to a file and loaded in a program again later on. Serialization refers to the process of converting an object in memory to a byte stream that can be stored on disk or sent over a network. Pickling is useful for applications where you need some degree of persistency (i.e., the data survives after the process with which it was created has ended) in your data. This data can be saved to disk, sent over a Transmission Control Protocol (TCP) or socket connection, or stored in a database. Using the Pickle module is not recommended if you want to use data across different programming languages. However, do not use the pickle module to deserialize objects from untrusted sources as this can expose you to hacker attacks!
